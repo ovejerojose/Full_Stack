@@ -1,0 +1,45 @@
+poner en el head
+
+<script src="https://kit.fontawesome.com/a2ca134045.js" crossorigin="anonymous"></script>
+
+
+
+<!--==============================footer=================================-->      
+<footer>
+        <p> Footer para la pagina del proyecto Alquiler de Cancha ISPC</p>
+        <i class="fa-regular fa-map"><a href="mapasitio.html">Mapa del Sitio</a></i>
+        <i class="fa-solid fa-address-card"><a href="quienessomos.html">Quienes somos</a></i>
+        <i class="fa-brands fa-facebook"><a href="https://www.ispc.edu.ar/" target="blank">Redes Sociales</a></i>
+        <i class="fa-brands fa-github"><a href="https://github.com/ovejerojose/Full_Stack/" target="blank">GitHub del Grupo</a></i>
+        
+</footer>
+
+
+
+CSS
+
+footer{
+	background-color: #bf9742;
+	text-align: center;
+    margin-left: auto;
+    margin-right: auto;	
+    margin-bottom: 30px;
+    margin-top:20px;
+    font-family: 'Poppins', sans-serif;
+    padding-bottom: 10px;
+    
+}
+
+footer p{padding: 10px;}
+
+footer a{
+	padding-right: 50px;
+	padding-left: 5px 	;
+	text-decoration: none;
+	display: inline-block;
+	color : #61481c;
+}
+
+footer a:visited{
+	color : #61481c;
+}
