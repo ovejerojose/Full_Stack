@@ -6,7 +6,7 @@
 
 
 body {
-    background-color: #e6b325;
+    background-color: #e6b325 !important;
 }
 
 
@@ -123,6 +123,26 @@ body {
 	font-weight: bold;
 	font-size: 20px;
 }
+/*section home*/
+
+.card {
+
+	width: 100%;
+	background-color: #e6b325 !important;
+	border-style: none !important;
+
+
+}
+.btn{
+background-color: #815f00 !important;
+border-style: none!important;
+}
+.btn:hover{
+background-color: #ffbe0b !important;
+}
+
+/* footer*/
+
 footer{
 	background-color: #bf9742;
 	text-align: center;
