@@ -150,7 +150,7 @@ footer a:visited{
 	color : #61481c;
 }
 
-<<<<<<< HEAD
+
 .ef3d {
 	text-align: left;
 	font-family: Arial Black;
@@ -158,12 +158,15 @@ footer a:visited{
 	font-size: 30px;
 	color: #fff;
 	text-shadow: 0 1px 0 #ddd, 0 2px 0 #ccc, 0 3px 0 #bbb, 0 4px 0 #aaa, 0 5px 0 #acacac, 0 6px 1px rgba(0,0,0,0.1), 0 0 5px rgba(0,0,0,0.1), 0 1px 3px rgba(0,0,0,0.3), 0 3px 5px rgba(0,0,0,0.2), 0 5px 10px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.2), 0 20px 20px rgba(0,0,0,0.15);
-=======
-
-.columna{
-	padding-top: 30px;
-	text-align: center
 }
+
+
+.columna {
+	display: flex;
+	flex-direction: row;
+	padding: 20px;
+}
+
 
 .grid_3{
 	display: inline-block;
@@ -186,5 +189,5 @@ footer a:visited{
     display: inline-block;
     width: 100%;
     height: 100%;
->>>>>>> ed3ba51a9dd23fc998fb06d5c51a856a5a2e6d5c
+
 }
